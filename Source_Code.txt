@@ -1,0 +1,29 @@
+  static void Main()
+        {
+            int a;
+            float b;
+            float d;
+            string word;
+            a = 87;
+            b = 23.50;
+            word = "Hello World";
+            if ((a+b)>100)
+            {
+                print("Greater than 100");
+            }
+            else
+            {
+                print("Less than 100");
+            }
+
+            for (int i = 0; i < 3 ; i++)
+            {
+                print(word);
+
+            }
+            d = a + b;
+            print("The Sum is " + d);
+ 
+       
+            
+        }
